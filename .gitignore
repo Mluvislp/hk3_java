@@ -1,67 +1,39 @@
 # Bytecode biên dịch
 *.class
 
-# Thư mục đầu ra biên dịch
-/bin/
+# Thư mục build và output
 /build/
-/target/
-
-# Maven
-.mvn/
-!**/src/main/**/target/
-!**/src/test/**/target/
-pom.xml.[changelog|releaseBackup|versionsBackup|next|backup]
-release.properties
-
-# Gradle
-.gradle/
-build/
-
-# Tệp nhật ký
-*.log
-
-# Cài đặt IDEs và tệp cấu hình
-/.idea/
-/.idea/*/
-*.iml
-*.iws
-*.ipr
-/.vscode/
+/dist/
+/nbproject/build-impl.xml
+/nbproject/genfiles.properties
 /nbproject/private/
+/nbproject/Makefile
+/nbproject/output/
+
+# Tệp biên dịch NetBeans
+nb-configuration.xml
+
+# Tệp tạm thời và log
+*.log
+*.tmp
+
+# Thư mục tài nguyên biên dịch
+/target/
+/bin/
 /out/
 
-# Tệp tạm thời
-*.tmp
-*.swp
-*.swo
-*.DS_Store
-
-# Tệp JAR và WAR
-*.jar
-*.war
-
-# Tệp cấu hình môi trường
-.env
-
-# Tệp hệ điều hành
-Thumbs.db
-.DS_Store
-
-# Thư viện Java tự động tải (Maven, Gradle)
-lib/
-
-# Tệp cấu hình Intellij IDEA
+# Tệp IDEs (IntelliJ IDEA, Eclipse, VSCode...)
 /.idea/
 /*.iml
-/modules.xml
-/.classpath
+*.iws
+/.vscode/
 /.project
+/.classpath
 /.settings/
 /.settings/
 
-# Tệp Javadoc
-/doc/
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db
 
-# Thư viện tải về
-/dependencies/
-/libs/
+# Tệp JAR

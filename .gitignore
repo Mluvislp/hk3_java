@@ -1,0 +1,67 @@
+# Bytecode biên dịch
+*.class
+
+# Thư mục đầu ra biên dịch
+/bin/
+/build/
+/target/
+
+# Maven
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.[changelog|releaseBackup|versionsBackup|next|backup]
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Tệp nhật ký
+*.log
+
+# Cài đặt IDEs và tệp cấu hình
+/.idea/
+/.idea/*/
+*.iml
+*.iws
+*.ipr
+/.vscode/
+/nbproject/private/
+/out/
+
+# Tệp tạm thời
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Tệp JAR và WAR
+*.jar
+*.war
+
+# Tệp cấu hình môi trường
+.env
+
+# Tệp hệ điều hành
+Thumbs.db
+.DS_Store
+
+# Thư viện Java tự động tải (Maven, Gradle)
+lib/
+
+# Tệp cấu hình Intellij IDEA
+/.idea/
+/*.iml
+/modules.xml
+/.classpath
+/.project
+/.settings/
+/.settings/
+
+# Tệp Javadoc
+/doc/
+
+# Thư viện tải về
+/dependencies/
+/libs/
